@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/SettingsLayout"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.v7.widget.GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        app:orientation="horizontal"
+        app:rowCount="9"
+        app:columnCount="2">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_rowWeight="1"
+            app:layout_columnWeight="1"
+            android:textSize="25sp"
+            android:text="Name"
+            android:id="@+id/textView1" />
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_rowWeight="1"
+            app:layout_columnWeight="1"
+            android:id="@+id/name_text"
+            android:hint="Name..." />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_rowWeight="1"
+            app:layout_columnWeight="1"
+            android:textSize="25sp"
+            android:text="Employee ID"
+            android:id="@+id/textView2" />
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_rowWeight="1"
+            app:layout_columnWeight="1"
+            android:id="@+id/empID_text"
+            android:hint="Employee Id..." />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_rowWeight="1"
+            app:layout_columnWeight="1"
+            android:textSize="25sp"
+            android:text="Site"
+            android:id="@+id/textView3" />
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_rowWeight="1"
+            app:layout_columnWeight="1"
+            android:id="@+id/site_text"
+            android:hint="Site..." />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_rowWeight="1"
+            app:layout_columnWeight="1"
+            android:textSize="25sp"
+            android:text="Workgroup"
+            android:id="@+id/textView4" />
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_rowWeight="1"
+            app:layout_columnWeight="1"
+            android:id="@+id/workgroup_text"
+            android:hint="Workgroup..." />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_rowWeight="1"
+            app:layout_columnWeight="1"
+            android:textSize="25sp"
+            android:text="Scheduler"
+            android:id="@+id/textView5" />
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_rowWeight="1"
+            app:layout_columnWeight="1"
+            android:id="@+id/scheduler_text"
+            android:hint="Schedulers name..." />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_rowWeight="1"
+            app:layout_columnWeight="1"
+            android:textSize="25sp"
+            android:text="Email"
+            android:id="@+id/textView6" />
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_rowWeight="1"
+            app:layout_columnWeight="1"
+            android:id="@+id/schedemail_text"
+            android:hint="Email address..." />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_rowWeight="1"
+            app:layout_columnWeight="1"
+            android:textSize="25sp"
+            android:text="Team Leader"
+            android:id="@+id/textView7" />
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_rowWeight="1"
+            app:layout_columnWeight="1"
+            android:id="@+id/teamleader_text"
+            android:hint="Team Leaders name..." />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_rowWeight="1"
+            app:layout_columnWeight="1"
+            android:textSize="25sp"
+            android:text="Email"
+            android:id="@+id/textView8" />
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_rowWeight="1"
+            app:layout_columnWeight="1"
+            android:id="@+id/tlemail_text"
+            android:hint="Email address...." />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_rowWeight="1"
+            app:layout_columnWeight="1"
+            android:textSize="25sp"
+            android:text="Last Edit"
+            android:id="@+id/textView9" />
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_rowWeight="1"
+            app:layout_columnWeight="1"
+            android:id="@+id/lastedit_text"
+            android:editable="false"
+            android:hint="Last date updated..." />
+    </android.support.v7.widget.GridLayout>
+    <android.support.v7.widget.GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        app:orientation="horizontal"
+        app:rowCount="1"
+        app:columnCount="2">
+        <Button
+            android:text="Load"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_rowWeight="1"
+            app:layout_columnWeight="1"
+            android:id="@+id/load_button" />
+        <Button
+            android:text="Save"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_rowWeight="1"
+            app:layout_columnWeight="1"
+            android:id="@+id/save_button" />
+    </android.support.v7.widget.GridLayout>
+</LinearLayout>

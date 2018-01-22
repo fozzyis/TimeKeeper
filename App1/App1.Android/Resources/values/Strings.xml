@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="hello">Hello World, Click Me!</string>
+	<string name="app_name">TimeKeeper.Droid</string>
+  <string name="permission_storage_rationale">Storage is required to store user preferences.</string>
+  <string name="ok">OK</string>
+  <string name="permision_available_storage">Storage Permissions have been granted. Contacts screen can now be opened.</string>
+  <string name="permissions_not_granted">Permissions were not granted.</string>
+      <string name="buttonText">Send an email</string>  
+    <string name="app_name">SendEmail</string> 
+</resources>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+  <style name="textview_settings">
+    <item name="android:layout_width">0dp</item>
+    <item name="android:layout_height">0dp</item>
+    <item name="layout_rowWeight">1</item>
+    <item name="layout_columnWeight">1</item>
+    <item name="android:textSize">25sp</item>
+  </style>
+  <style name="edittext_underline">
+    <!-- Used for the bottom line when not selected / focused -->
+    <item name="colorControlNormal">#9e9e9e</item>
+    <!-- colorControlActivated & colorControlHighlight use the colorAccent color by default -->
+</style>
+</resources>

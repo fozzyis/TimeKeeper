@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/MainLayout"          
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:id="@+id/linearLayout1"
+        android:minWidth="25px"
+        android:minHeight="25px">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textSize="50sp"
+            android:textStyle="bold"
+            android:id="@+id/timeticker_text"
+            android:text="00:00:00"
+            android:textColor="#00CC00" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="45"
+        android:id="@+id/linearLayout2">
+        <android.support.v7.widget.GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            app:orientation="horizontal"
+            app:rowCount="2"
+            app:columnCount="6">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                app:layout_rowWeight="1"
+                app:layout_columnWeight="1"
+                android:textSize="15sp"
+                android:text="Work Order:"
+                android:id="@+id/textView1"
+                android:textColor="#00CC00" />
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                app:layout_rowWeight="1"
+                app:layout_columnWeight="2"
+                app:layout_columnSpan="3"
+                android:textSize="15sp"
+                android:inputType="number"
+                android:hint="Work Order #"
+                android:id="@+id/editText1"
+                android:textColor="#00CC00" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                app:layout_rowWeight="1"
+                app:layout_columnWeight="1"
+                android:textSize="15sp"
+                android:text="Task:"
+                android:id="@+id/textView2"
+                android:textColor="#00CC00" />
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:theme="@style/edittext_underline"
+                app:layout_rowWeight="1"
+                app:layout_columnWeight="1"
+                android:textSize="15sp"
+                android:inputType="number"
+                android:hint="Task #"
+                android:id="@+id/editText2"
+                android:textColor="#00CC00" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                app:layout_rowWeight="1"
+                app:layout_columnWeight="1"
+                android:textSize="15sp"
+                android:text="Comment:"
+                android:id="@+id/textView3"
+                android:textColor="#00CC00" />
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                app:layout_rowWeight="1"
+                app:layout_columnWeight="1"
+                app:layout_columnSpan="5"
+                android:textSize="15sp"
+                android:hint="Enter any comments here"
+                android:id="@+id/editText3"
+                android:textColor="#00CC00" />
+        </android.support.v7.widget.GridLayout>
+        <android.support.v7.widget.GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            app:orientation="horizontal"
+            app:rowCount="1"
+            app:columnCount="3">
+            <Button
+                android:text="Start"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                app:layout_rowWeight="1"
+                app:layout_columnWeight="1"
+                android:id="@+id/starttimer_button" />
+            <Button
+                android:text="Stop"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                app:layout_rowWeight="1"
+                app:layout_columnWeight="1"
+                android:id="@+id/newtimer_button" />
+            <Button
+                android:text="Save"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                app:layout_rowWeight="1"
+                app:layout_columnWeight="1"
+                android:id="@+id/stoptimer_button" />
+        </android.support.v7.widget.GridLayout>
+        <android.support.v7.widget.GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3"
+            app:orientation="horizontal"
+            app:rowCount="1"
+            app:columnCount="3"
+            android:minWidth="25px"
+            android:minHeight="25px">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Text"
+                android:id="@+id/textView4"
+                android:textColor="#00CC00" />
+        </android.support.v7.widget.GridLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="45"
+        android:id="@+id/linearLayout3" />
+</LinearLayout>
